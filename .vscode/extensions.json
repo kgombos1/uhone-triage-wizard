@@ -1,10 +1,20 @@
 {
-  "recommendations": [
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
-    "graphql.vscode-graphql",
-    "mgmcdermott.vscode-language-babel",
-    "editorconfig.editorconfig",
-    "ofhumanbondage.react-proptypes-intellisense"
-  ]
+	// See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+	// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+	// List of extensions which should be recommended for users of this workspace.
+	"recommendations": [
+		"dbaeumer.vscode-eslint",
+		"davidanson.vscode-markdownlint",
+		"eamodio.gitlens",
+		"ms-azure-devops.azure-pipelines",
+		"formulahendry.auto-rename-tag",
+		"lukegeneva.auto-collapse-explorer",
+		"aaron-bond.better-comments",
+		"kamikillerto.vscode-colorize",
+		"PKief.material-icon-theme",
+		"2gua.rainbow-brackets",
+		"streetsidesoftware.code-spell-checker"
+	],
+	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+	"unwantedRecommendations": []
 }

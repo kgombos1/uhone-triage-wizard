@@ -19,9 +19,29 @@
     "@abyss/core": "1.19.1",
     "@abyss/ext": "1.19.1",
     "@abyss/web": "1.19.1",
-    "lodash": "4.17.21"
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.4",
+    "@mui/styles": "^5.11.2",
+    "craco": "^0.0.3",
+    "lodash": "4.17.21",
+    "react-scripts": "^5.0.1",
+    "react-use-wizard": "^2.2.1",
+    "tss-react": "^4.5.2"
   },
   "bundleDependencies": [
     "@storybook/react"
-  ]
+  ],
+  "devDependencies": {
+    "@types/eslint": "^8.4.10",
+    "@types/jest": "^29.2.5",
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-router-dom": "^5.3.3",
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
+    "craco-alias": "^3.0.1",
+    "typescript": "^4.7.4"
+  }
 }
