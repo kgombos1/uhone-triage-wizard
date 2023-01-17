@@ -1,0 +1,20 @@
+# Environment
+.env
+
+# Dependendies
+node_modules
+
+# Build Directories
+build
+cache
+
+# Coverage
+coverage
+
+# Log files
+*.log
+npm-debug.log*
+
+# Misc
+.DS_Store
+.idea

@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "license": "ISC",
+  "prettier": "../../node_modules/@abyss/core/prettier-config",
+  "eslintConfig": {
+    "extends": "../../node_modules/@abyss/core/eslint-config"
+  },
+  "scripts": {
+    "dev": "abyss dev -p 4000",
+    "start": "abyss start -p 4000",
+    "build": "abyss build",
+    "lint": "abyss lint"
+  },
+  "dependencies": {
+    "@abyss/api": "1.19.1",
+    "@abyss/core": "1.19.1"
+  },
+  "bundleDependencies": [
+    "express"
+  ]
+}

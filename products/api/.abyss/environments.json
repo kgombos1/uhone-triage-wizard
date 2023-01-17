@@ -1,0 +1,18 @@
+{
+  "env": {
+    "APP_NAME": "Create Abyss App - API",
+    "GITHUB_API_URL": "https://github.optum.com/api/v3"
+  },
+  "env.dev": {
+    "ENV_VAR": "dev-only"
+  },
+  "env.test": {
+    "ENV_VAR": "test-only"
+  },
+  "env.stage": {
+    "ENV_VAR": "stage-only"
+  },
+  "env.prod": {
+    "ENV_VAR": "prod-only"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "ext",
+  "version": "1.0.0",
+  "license": "ISC",
+  "prettier": "../../node_modules/@abyss/core/prettier-config",
+  "eslintConfig": {
+    "extends": "../../node_modules/@abyss/core/eslint-config"
+  },
+  "scripts": {
+    "dev": "abyss dev -p 5000",
+    "build": "abyss build",
+    "lint": "abyss lint"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "@abyss/core": "1.19.1",
+    "@abyss/ext": "1.19.1",
+    "@abyss/web": "1.19.1",
+    "lodash": "4.17.21"
+  },
+  "bundleDependencies": [
+    "@storybook/react"
+  ]
+}

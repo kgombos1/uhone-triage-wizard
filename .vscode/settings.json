@@ -1,0 +1,15 @@
+{
+  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "onFocusChange",
+  "explorer.compactFolders": false,
+  "prettier.singleQuote": true,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.options": {
+    "resolvePluginsRelativeTo": "node_modules/@abyss/core"
+  }
+}

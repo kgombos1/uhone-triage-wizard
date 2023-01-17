@@ -1,0 +1,3 @@
+{
+  "extends": "@abyss/core/tsconfig.json"
+}

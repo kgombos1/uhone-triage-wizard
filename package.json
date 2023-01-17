@@ -1,0 +1,31 @@
+{
+  "name": "triage-wizard",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "products/*"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "upgrade": "abyss vers @abyss",
+    "lint": "abyss run lint",
+    "dev": "abyss run dev",
+    "api": "npm run dev --prefix=products/api",
+    "ext": "npm run dev --prefix=products/ext",
+    "web": "npm run dev --prefix=products/web"
+  },
+  "dependencies": {
+    "@abyss/core": "1.19.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.18",
+    "@types/react": "18.0.20",
+    "@types/react-dom": "18.0.6",
+    "eslint": "7.32.0",
+    "typescript": "4.7.4"
+  }
+}

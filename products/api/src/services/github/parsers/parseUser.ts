@@ -1,0 +1,45 @@
+// login: 'jhollow6',
+// id: 1459,
+// node_id: 'MDQ6VXNlcjE0NTk=',
+// avatar_url: 'https://github.optum.com/avatars/u/1459?',
+// gravatar_id: '',
+// url: 'https://github.optum.com/api/v3/users/jhollow6',
+// html_url: 'https://github.optum.com/jhollow6',
+// followers_url: 'https://github.optum.com/api/v3/users/jhollow6/followers',
+// following_url: 'https://github.optum.com/api/v3/users/jhollow6/following{/other_user}',
+// gists_url: 'https://github.optum.com/api/v3/users/jhollow6/gists{/gist_id}',
+// starred_url: 'https://github.optum.com/api/v3/users/jhollow6/starred{/owner}{/repo}',
+// subscriptions_url: 'https://github.optum.com/api/v3/users/jhollow6/subscriptions',
+// organizations_url: 'https://github.optum.com/api/v3/users/jhollow6/orgs',
+// repos_url: 'https://github.optum.com/api/v3/users/jhollow6/repos',
+// events_url: 'https://github.optum.com/api/v3/users/jhollow6/events{/privacy}',
+// received_events_url: 'https://github.optum.com/api/v3/users/jhollow6/received_events',
+// type: 'User',
+// site_admin: false,
+// ldap_dn: 'CN=jhollow6,CN=Users,DC=ms,DC=ds,DC=uhc,DC=com',
+// name: 'Hollow, John',
+// company: 'Optum',
+// blog: 'https://github.optum.com/abyss',
+// location: 'MN051 Eden Prairie, MN',
+// email: 'john_hollow@optum.com',
+// hireable: null,
+// bio: '@abyss Senior Principal Engineer & Architect\r\n' +
+//   '\r\n' +
+//   '"If you want to go fast, go alone. If you want to go far, go together."',
+// twitter_username: null,
+// public_repos: 4,
+// public_gists: 0,
+// followers: 7,
+// following: 0,
+// created_at: '2017-09-22T20:20:42Z',
+// updated_at: '2021-12-31T05:33:32Z',
+// suspended_at: null
+
+export const parseUser = (data) => {
+  return {
+    id: data.login,
+    email: data.email,
+    location: data.location,
+    data,
+  };
+};
